@@ -1,0 +1,11 @@
+<h3>I am in learning component</h3>
+<app-session></app-session>
+<p>I am getting called from learning.</p>
+<hr>
+<h3>Binding</h3>
+<p>{{ type1 }}</p>
+<p> {{ getString() }}</p>
+<p>Property binding</p>
+<button class="btn btn-primary" [disabled]='allowButton'>Add Button</button>
+<button class="btn btn-primary" (click)= "onButtonClick()">click me</button>
+<p *ngIf= 'showText'>click again to {{textValue}} me</p>
